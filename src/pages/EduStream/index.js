@@ -73,8 +73,12 @@ return (
 <p>Performance Trends</p>
 
 
+
 <Rechart  stuList={list}  /> 
-<Attendance   attendance={attend} />
+
+
+
+<Attendance    attendance={attend} />
 
 </div>
 
