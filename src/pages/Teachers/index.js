@@ -1,5 +1,5 @@
 import  {useState,useEffect}from "react"
-
+import "./index.css"
 const Teachers=()=>{
 
 
@@ -11,9 +11,9 @@ const Teachers=()=>{
 
     const res=await fetch("https://jsonplaceholder.typicode.com/users")
     const data=await res.json()
-console.log(data)
+console.log(`teachersList:${data}`)
 setTeachers(data)
-
+console.log(data)
 
 }
 
@@ -25,18 +25,35 @@ getTeachers()
     return(
 
 
-        <div>
+        <div    className="teachers-list">
+<table    >
 
+
+<thead>
+
+
+<td>id</td>
+<td>name</td>
+<td>phone</td>
+
+</thead>
+
+<tbody>
     {teachersList.map(e=>    
-<p>
+<tr>
+<td>{e.id}</td>
+<td>{e.name}</td>
+<td>{e.phone}</td>
+</tr>
+
 
 
     
-</p>
 
 
     )}
-
+</tbody>
+</table>
 
 
         </div>

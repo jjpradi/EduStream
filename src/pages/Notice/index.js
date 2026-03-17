@@ -32,8 +32,11 @@ console.log(data)
 
 
 
+
 }
+
 getNews()
+
 },[])
 
     return(

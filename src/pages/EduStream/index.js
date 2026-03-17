@@ -48,6 +48,10 @@ getList()
 
 
 },[])
+
+
+
+
 return (
 
 
@@ -69,14 +73,20 @@ return (
 
 
 <p>Total Enrollment</p>
-<p>Average Attendance Rate</p>
+
+
+
+
+
 <p>Performance Trends</p>
+
 
 
 
 <Rechart  stuList={list}  /> 
 
 
+<p>Average Attendance Rate</p>
 
 <Attendance    attendance={attend} />
 
