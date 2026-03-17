@@ -13,9 +13,11 @@ console.log("usechart")
 
 
 return (
-
+    
+    
 
     useQuery({
+
         queryKey:[{list}], 
         queryFn:listConvert
     

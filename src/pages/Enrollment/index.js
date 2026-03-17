@@ -1,5 +1,4 @@
-        import { useEffect } from "react"
-
+import { useEffect } from "react"
 
 
 
@@ -10,11 +9,6 @@ const Enrollment=()=>{
 
 
    useEffect(()=>{
-
-    
-
-
-
 
    })
 
@@ -43,4 +37,6 @@ const Enrollment=()=>{
     )
 }
 
+
 export default Enrollment
+
