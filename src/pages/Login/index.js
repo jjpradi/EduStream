@@ -258,7 +258,7 @@ return(
     <div style={{width:"90vw"}}  className="login-page">
    
 
-            <div   className="login-card"  width={{width:"60vw"}}> 
+          <div   className="login-card"  width={{width:"60vw"}} > 
                 
                 
                 
