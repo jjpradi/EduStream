@@ -1,0 +1,29 @@
+
+
+
+.login-page{
+
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+}
+
+.login-card{
+border-radius: 33px;
+    padding: 77px;
+background-color:grey;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 40vh;
+
+
+
+}
